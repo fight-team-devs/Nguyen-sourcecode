@@ -37,13 +37,13 @@ int main()
 				{
 					cout << "tam giac nay la tam giac deu"<<endl;
 				}
-				else
-				{
-					cout << "tam giac nay la tam giac can" << endl;
-				}
 				if (pow(a, 2) == pow(b, 2) + pow(c, 2) || pow(b, 2) == pow(a, 2) + pow(c, 2) || pow(c, 2) == pow(b, 2) + pow(a, 2))
 				{
 					cout << "tam giac nay la tam giac vuong can" << endl;
+				}
+				else
+				{
+					cout << "tam giac nay la tam giac can" << endl;
 				}
 			}
 			else

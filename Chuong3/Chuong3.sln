@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bai10", "bai10\bai10.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bai11", "bai11\bai11.vcxproj", "{66E4981B-1681-4D7C-9E45-ADAC7D1FB739}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bai12", "bai12\bai12.vcxproj", "{2DA02EE0-F7A1-4D3A-AFD6-572296CF563B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{66E4981B-1681-4D7C-9E45-ADAC7D1FB739}.Release|x64.Build.0 = Release|x64
 		{66E4981B-1681-4D7C-9E45-ADAC7D1FB739}.Release|x86.ActiveCfg = Release|Win32
 		{66E4981B-1681-4D7C-9E45-ADAC7D1FB739}.Release|x86.Build.0 = Release|Win32
+		{2DA02EE0-F7A1-4D3A-AFD6-572296CF563B}.Debug|x64.ActiveCfg = Debug|x64
+		{2DA02EE0-F7A1-4D3A-AFD6-572296CF563B}.Debug|x64.Build.0 = Debug|x64
+		{2DA02EE0-F7A1-4D3A-AFD6-572296CF563B}.Debug|x86.ActiveCfg = Debug|Win32
+		{2DA02EE0-F7A1-4D3A-AFD6-572296CF563B}.Debug|x86.Build.0 = Debug|Win32
+		{2DA02EE0-F7A1-4D3A-AFD6-572296CF563B}.Release|x64.ActiveCfg = Release|x64
+		{2DA02EE0-F7A1-4D3A-AFD6-572296CF563B}.Release|x64.Build.0 = Release|x64
+		{2DA02EE0-F7A1-4D3A-AFD6-572296CF563B}.Release|x86.ActiveCfg = Release|Win32
+		{2DA02EE0-F7A1-4D3A-AFD6-572296CF563B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
