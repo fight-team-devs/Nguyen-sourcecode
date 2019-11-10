@@ -91,35 +91,35 @@ void SoNguyenTo()
 		}
 	}
 }
-void TangDanGiamDan()
+void TangDanGiamDan()//thuat toan: xet nguoc so vua nhap, neu giam dan => so do tang dan va nguoc lai
 {
 	int i, sodu, a = 10, b = 0;
 	int c = 0, d = 0, e = 10, f = 10;
 	for (i = 0;m > 0;i++)
 	{
 		sodu = m % 10;
-		b = a - sodu;
-		c = sodu - d;
-		a = sodu;
-		d = sodu;
+		b = a - sodu;//bieu thuc tim so tang dan
+		c = sodu - d;//bieu thuc tim so giam dan
+		a = sodu;//luu lai gia tri so du "TRUOC DO" cho truong hop tang dan
+		d = sodu;//luu lai gia tri so du "TRUOC DO" cho truong hop giam dan
 		m = m / 10;
 		if (b < 0 && c < 0)
 		{
 			cout << "cac chu so vua nhap khong tang dan,khong giam dan" << endl;break;
 		}
-		if (b == 0)
+		if (b == 0)//neu tang dan nhung khong nghiem ngat
 		{
-			e = 0;
+			e = 0;//muc dich nhu flag de thong bao
 		}
-		if (c == 0)
+		if (c == 0)//neu giam giam nhung khong nghiem ngat
 		{
-			f = 0;
+			f = 0;//muc dich nhu flag de thong bao
 		}
 	}
 
-	if (b >= 0)
+	if (b >= 0)//neu tat ca deu tang dan
 	{
-		if (e == 0)
+		if (e == 0)//neu co it nhat 2 so lien tiep bang nhau
 		{
 			cout << "cac chu so vua nhap tang dan khong nghiem ngat" << endl;
 		}
@@ -128,9 +128,9 @@ void TangDanGiamDan()
 			cout << "cac chu so vua nhap tang dan nghiem ngat" << endl;
 		}
 	}
-	else if (c >= 0)
+	else if (c >= 0)//su dung else if vi truong hop tren xay ra, ta se khong xet nua
 	{
-		if (f == 0)
+		if (f == 0)//neu co it nhat 2 so lien tiep bang nhau
 		{
 			cout << "cac chu so vua nhap giam dan khong nghiem ngat" << endl;
 		}
