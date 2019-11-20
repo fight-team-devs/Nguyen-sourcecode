@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Admin\Documents\GitHub\Nguyen-sourcecode\chuong5Mang\bai2\Source.cpp(30): warning C4715:  'kiemTra': not all control paths return a value
+C:\Users\Admin\Documents\GitHub\Nguyen-sourcecode\chuong5Mang\bai2\Source.cpp(55): warning C4715:  'KiemTraSoNguyenTo': not all control paths return a value
+  bai2.vcxproj -> C:\Users\Admin\Documents\GitHub\Nguyen-sourcecode\chuong5Mang\Debug\bai2.exe
