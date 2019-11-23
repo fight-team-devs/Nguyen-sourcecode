@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\Admin\Documents\GitHub\Nguyen-sourcecode\XauNgoacDung\bai1\Source.cpp(73): warning C4715:  'Comparision': not all control paths return a value
+  bai1.vcxproj -> C:\Users\Admin\Documents\GitHub\Nguyen-sourcecode\XauNgoacDung\Debug\bai1.exe
